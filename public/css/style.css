@@ -1,0 +1,132 @@
+html,body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  /* background-color: #eeeeee */ 
+}
+#logo {
+  height: 20px;
+}
+.form {
+  /* border: 1px solid #FF8000; */
+  box-shadow: 0px 0px 12px 0 rgba(0, 0, 0, 0.2);
+  /* -6px -6px 6px 0 rgb(255,255,255,0.7); */
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+.uk-button {
+  background-color: #FF8000;
+  color: #fff;
+}
+.uk-button:hover {
+  background-color:#b56100;
+}
+.container {
+  padding: 20px;
+}
+.el {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  color: rgb(133, 133, 133);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.el:hover {
+  background-color: #FF8000;
+  text-decoration: none;
+  color: #fff;
+}
+
+.alert {
+  width: 100%;
+  padding: 15px;
+  /* background-color: #e6bd08; */
+  background-color: rgb(41, 189, 98);
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.warning {
+  background-color: rgb(230, 25, 25);
+}
+
+.questionbox {
+  margin-top: 60px;
+  width:50%;
+  height: auto;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 30vh;
+  /* border: 1px solid #000; */
+  box-shadow: 3px 3px 10px #818181;
+  padding: 20px;
+}
+.answer {
+  width: 60%;
+  
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.alert-box {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: #fff;
+}
+
+.alert-correct {
+  background-color: #45d621;
+}
+.alert-correct::after {
+  content: "CORRECT";
+}
+
+.alert-wrong {
+  background-color: #d64b21;
+}
+.alert-wrong::after {
+  content: "WRONG";
+}
+.alert-completed {
+  background-color: rgb(0, 162, 255);
+}
+.alert-completed::after {
+  content: "ALREADY COMPLETED";
+}
+#particles-js{
+  background:#FFF;
+  height:100%;
+}
+#get_started {
+  text-align: center;
+  position: absolute;
+  top:40%;
+  width: 30%;
+  left: 35%;
+  right: 35%;
+  border: 1px solid #FF8000;
+  background-color: #FF8000;
+  color: #FFF;
+  padding: 10px;
+}
+.white {
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  right: 30%;
+  margin-top:10%;
+}
